@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АзияВО</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+        <div class="container header__container">
+            <div class="header__logo header-logo">
+                <a href="index.html" class="header-logo__img-holder">
+                    <img src="image/banner/dragon.png" alt="" width="70" height="70">
+                </a>
+                <div class="header-logo__title">
+                    <p class="header-logo__title-top">Доставка</p>
+                    <p class="header-logo__title-bottom">Азия ВО</p>
+                </div>
+            </div>
+            <div class="header__nav nav-header">
+                <ul class="nav-header__list">
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#actions">Акции</a></li>
+                </ul>
+                
+            </div>
+            
+            <div class="header__info info-header">
+                <div class="info-header__wrapper">
+                    <div class="info-header__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-header__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-header__whatsapp">
+                    <a href="https://wa.me/+79265729595" class="info-header__tel">8 000 000 00 00</a>
+                </div>
+            </div>
+            <div class="header__cart-wrapper cart" tabindex="0">
+                <div class="cart__icon">
+                    <span class="cart-quantity">0</span>
+                </div>
+                <div class="cart__content cart-content" >
+                    <ul class="cart-content__list" data-simplebar>
+
+                    </ul>
+                    <div class="cart-content__bottom">
+                        <div class="cart-content__fullprice">
+                            <span>Итого:</span>
+                            <span class="fullprice">0 ₽</span>
+                        </div>
+                        <button class="cart-content__btn" data-path="modal" data-animation="fadeInUp">Оформить заказ</button>
+                    </div>
+                </div> <!-- //cart__content cart-content-->
+            </div> <!-- //"header__cart-wrapper cart-->
+
+            <div class="menu-icon-wrapper">
+                <button class="menu-icon menu-icon"></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="swiper-container banner__inner banner-inner">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide banner-inner__slide banner-slide">
+                    <img src="image/banner/bg-viet2.webp" alt="">
+                    <div class="banner-slide__content">
+                        <div class="banner-slide__column">
+                            <div class="banner-slide__logo">Оля-ля!</div>
+                            <h1 class="banner-slide__title">Получи скидку 20%  на&nbsp;первый заказ</h1>
+                            <p class="banner-slide__subtitle">Срок акции ограничен</p>
+                            <button class="banner-slide__button btn btn-white">Все акции</button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="swiper-slide banner-inner__slide banner-slide">
+                    <img src="image/banner/bg-viet2.webp" alt="">
+                    <div class="banner-slide__content">
+                        <div class="banner-slide__column">
+                            <div class="banner-slide__logo">Оля-ля!</div>
+                            <h1 class="banner-slide__title">Получи скидку 20%  на&nbsp;первый заказ</h1>
+                            <p class="banner-slide__subtitle">Срок акции ограничен</p>
+                            <button class="banner-slide__button btn">Все акции</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div> 
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section id="actions" class="products swiper-container products-slider products-slider-container container">
+        <div class="products-slider__header">
+            <h2 class="products-slider__title">Акции сегодня:</h2>
+            <div class="products-slider__control">
+                <div class="products-slider__arrow products-slider__arrow_prev"></div>
+                <div class="products-slider__info"></div>
+                <div class="products-slider__arrow products-slider__arrow_next"></div>
+            </div>
+        </div>
+        
+        <div class="products-slider-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper products-slider__body">
+    
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Диетическое блюдо</div>
+                                        <div class="product-label__text icon-sale">Сегодня скидка</div>
+                                    </div>
+                                    <img src="image/viet-product/11.webp" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">Суп с говядиной </a>
+                                    <div class="item-product__description">на мясном бульоне с лапшой и&nbsp;зеленью </div>
+                                    <div class="item-product__quantity quantity">
+                                       
+                                        <div class="quantity__input visually-hidden">
+                                            <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="catalog-item__price item-product__price">
+                                            
+                                            <span class="catalog-item__price-value subtotal hidden" >100</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">100</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                            <span class="item-product__price-old">200</span>
+                                        </div> 
+                                        
+                                </div>
+                                <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                
+                            </div> 
+                        </div> 
+                    </div>     
+                </div> 
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Диетическое блюдо</div>
+                                        <div class="product-label__text icon-sale">Сегодня скидка</div>
+                                    </div>
+                                    <img src="image/viet-product/11.webp" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">Суп с говядиной </a>
+                                    <div class="item-product__description">на мясном бульоне с лапшой и&nbsp;зеленью </div>
+                                    <div class="item-product__quantity quantity">
+                                       
+                                        <div class="quantity__input visually-hidden">
+                                            <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="catalog-item__price item-product__price">
+                                           
+                                            <span class="catalog-item__price-value subtotal hidden" >100</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">100</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                            <span class="item-product__price-old">200</span>
+                                        </div> 
+                                        
+                                </div>
+                                <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                
+                            </div> 
+                        </div> 
+                    </div>     
+                </div>
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Диетическое блюдо</div>
+                                        <div class="product-label__text icon-sale">Сегодня скидка</div>
+                                    </div>
+                                    <img src="image/viet-product/11.webp" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">Суп с говядиной </a>
+                                    <div class="item-product__description">на мясном бульоне с лапшой и&nbsp;зеленью </div>
+                                    <div class="item-product__quantity quantity">
+                                        
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                        <div class="catalog-item__price item-product__price">
+                                            
+                                            <span class="catalog-item__price-value subtotal hidden" >100</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">100</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                            <span class="item-product__price-old">200</span>
+                                            
+                                        </div> 
+                                        
+                                </div>
+                                <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                
+                            </div> 
+                        </div> 
+                    </div>     
+                </div> 
+                <div class="swiper-slide products-slider__slide">
+                    <div class="products-slider__items items-products">
+                        <div class="items-products__column">
+                            <div class="item-product">
+                                
+                                <a href="#" class="item-product__image ibg">
+                                    <div class="item-product__label product-label">
+                                        <div class="product-label__text icon-hot">Диетическое блюдо</div>
+                                        <div class="product-label__text icon-sale">Сегодня скидка</div>
+                                    </div>
+                                    <img src="image/viet-product/11.webp" alt="">
+                                </a>
+                                <div class="item-product__body">
+                                    <a href="#" class="item-product__title">Суп с говядиной </a>
+                                    <div class="item-product__description">на мясном бульоне с лапшой и&nbsp;зеленью </div>
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                    
+                                        <div class="catalog-item__price item-product__price">
+                                            
+                                            <span class="item-product__price catalog-item__price-value subtotal hidden" >100</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">100</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                            <span class="item-product__price-old">200</span>
+                                        </div> 
+                                        
+                                </div>
+                                <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                
+                            </div> 
+                        </div> 
+                    </div>     
+                </div>
+                
+                       
+            </div>
+        </div> <!-- //swiper-container-->
+    </section> <!-- //page__products products-slider-->
+
+
+<section id="menu" class="catalog section-catalog">
+    <div class="container catalog__container">
+        <div class="catalog__header">
+            <h2 class="catalog__title">Наши лучшие блюда для вас</h2>
+            <nav class="catalog__nav catalog-nav">
+                <ul class="catalog-nav__wrapper">
+                    <li class="catalog-nav__item">
+                        <button type="button" class="catalog-nav__btn is-active" data-filter="all">Все</button>
+                    </li>
+                    <li class="catalog-nav__item">
+                        <button type="button" class="catalog-nav__btn" data-filter="roll">Спринг роллы</button>
+                    </li>
+                    <li class="catalog-nav__item">
+                        <button type="button" class="catalog-nav__btn" data-filter="soup">Супы</button>
+                    </li>
+                    <li class="catalog-nav__item">
+                        <button type="button" class="catalog-nav__btn" data-filter="dish">Горячее</button>
+                    </li>
+                    <li class="catalog-nav__item">
+                        <button type="button" class="catalog-nav__btn" data-filter="drink">Напитки</button>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+            <div class=" catalog__body catalog-body">
+
+                <div class="catalog-body__item catalog-item" data-category="soup">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/soup/soup4.webp" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Суп 1</h3>
+                            <p class="catalog-item__description">
+                                Описание супа						
+                            </p>
+    
+                             <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >100</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">100</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                             </div>
+                        </div>
+                        
+                        
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="soup">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/soup/pho-bo.webp" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Фо Бо</h3>
+                            <p class="catalog-item__description">
+                            Суп с рисовой лапшой, говядиной, телятиной, ростками бобов и зеленью. Подаётся с соусами Зам Той (маринад с чесноком и чили) и Шрирача (острый соус).						
+                            </p>
+    
+                             <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="150" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >150</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">150</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                             </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="soup">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/soup/fo-tom.webp" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Том Ям</h3>
+                            <p class="catalog-item__description">
+                                Суп с креветками и рисовой лапшой, приготовленный на пасте Том Ям</p>
+    
+                            <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="200" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >200</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">200</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="soup">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/soup/fo-ga.webp" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Фо Га</h3>
+                            <p class="catalog-item__description">Классический суп Фо с курицей и чем-то там еще на мясном бульоне</p>
+    
+                            <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="250" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >250</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">250</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/noodles1.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Лапша 1</h3>
+                            <p class="catalog-item__description">
+                               Описание лапши 1</p>
+                            <div class="item-product__choice product-choice">
+                                <div class="product-choice__label">Лапша на выбор:</div>
+                                <div class="product-choice__options options">
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="buckwheat1" value="Гречневая" name="noodles" checked>
+                                        <label for="buckwheat1" class="options__label options__label-buckwheat"> <span>Гречневая</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="rice1" value="Стеклянная" name="noodles">
+                                        <label for="rice1" class="options__label options__label-rice"> <span>Стеклянная</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="wheat1" value="Пшеничная" name="noodles">
+                                        <label for="wheat1" class="options__label options__label-wheat"> <span>Пшеничная</span> </label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                                <div class="catalog-item__footer">
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="100" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                    <div class="catalog-item__bottom">
+                                        <div class="catalog-item__price item-product__price">
+                                            <span class="catalog-item__price-value subtotal hidden">100</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">100</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                        </div> 
+                                        <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                        <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/noodles2.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Лапша 2</h3>
+                            <p class="catalog-item__description">
+                               Описание лапши 2</p>
+                            <div class="item-product__choice product-choice">
+                                <div class="product-choice__label">Лапша на выбор:</div>
+                                <div class="product-choice__options options">
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="buckwheat2" value="Гречневая" name="noodles" checked>
+                                        <label for="buckwheat2" class="options__label options__label-buckwheat"> <span>Гречневая</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="rice2" value="Стеклянная" name="noodles">
+                                        <label for="rice2" class="options__label options__label-rice"> <span>Стеклянная</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="wheat2" value="Пшеничная" name="noodles">
+                                        <label for="wheat2" class="options__label options__label-wheat"> <span>Пшеничная</span> </label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                                <div class="catalog-item__footer">
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="300" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                    <div class="catalog-item__bottom">
+                                        <div class="catalog-item__price item-product__price">
+                                            <span class="catalog-item__price-value subtotal hidden">300</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">300</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                        </div> 
+                                        <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                        <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/noodles3.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Лапша 3</h3>
+                            <p class="catalog-item__description">
+                               Описание лапши 3</p>
+                            <div class="item-product__choice product-choice">
+                                <div class="product-choice__label">Лапша на выбор:</div>
+                                <div class="product-choice__options options">
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="buckwheat3" value="Гречневая" name="noodles" checked>
+                                        <label for="buckwheat3" class="options__label options__label-buckwheat"> <span>Гречневая</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="rice3" value="Стеклянная" name="noodles">
+                                        <label for="rice3" class="options__label options__label-rice"> <span>Стеклянная</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="wheat3" value="Пшеничная" name="noodles">
+                                        <label for="wheat3" class="options__label options__label-wheat"> <span>Пшеничная</span> </label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                                <div class="catalog-item__footer">
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="300" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                    <div class="catalog-item__bottom">
+                                        <div class="catalog-item__price item-product__price">
+                                            <span class="catalog-item__price-value subtotal hidden">300</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">300</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                        </div> 
+                                        <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                        <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/noodles4.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Лапша 4</h3>
+                            <p class="catalog-item__description">
+                               Описание лапши 4</p>
+                            <div class="item-product__choice product-choice">
+                                <div class="product-choice__label">Лапша на выбор:</div>
+                                <div class="product-choice__options options">
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="buckwheat4" value="Гречневая" name="noodles" checked>
+                                        <label for="buckwheat4" class="options__label options__label-buckwheat"> <span>Гречневая</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="rice4" value="Стеклянная" name="noodles">
+                                        <label for="rice4" class="options__label options__label-rice"> <span>Стеклянная</span> </label>
+                                    </div>
+                                    <div class="options__item">
+                                        <input class="options__input" type="radio" id="wheat4" value="Пшеничная" name="noodles">
+                                        <label for="wheat4" class="options__label options__label-wheat"> <span>Пшеничная</span> </label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                                <div class="catalog-item__footer">
+                                    <div class="item-product__quantity quantity">
+                                        <div class="quantity__button quantity__button-minus minus"></div>
+                                        <div class="quantity__input">
+                                            <input class="input-field" data-price="300" type="text" name="form[]" value="1">
+                                        </div>
+                                        <div class="quantity__button quantity__button-plus plus"></div>
+                                    </div>
+                                    <div class="catalog-item__bottom">
+                                        <div class="catalog-item__price item-product__price">
+                                            <span class="catalog-item__price-value subtotal hidden">300</span>
+                                            <span class="catalog-item__currency hidden">&#8381;</span>
+                                            <span class="">300</span>
+                                            <span class="catalog-item__currency">&#8381;</span>
+                                        </div> 
+                                        <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                        <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="roll">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot">Диетическое</div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/6.png" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Гой Том Га</h3>
+                            <p class="catalog-item__description">Спринг-роллы с креветками, курицей, рисовой лапшой и овощами, 2 шт. </p>
+    
+                            <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="350" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >350</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">350</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="roll">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot">Вегетарианское</div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/3.webp" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Салат</h3>
+                            <p class="catalog-item__description">Салат из вякой зелени</p>
+    
+                            <div class="catalog-item__footer">
+                                <div class="item-product__quantity quantity">
+                                    <div class="quantity__button quantity__button-minus minus"></div>
+                                    <div class="quantity__input">
+                                        <input class="input-field" data-price="400" type="text" name="form[]" value="1">
+                                    </div>
+                                    <div class="quantity__button quantity__button-plus plus"></div>
+                                </div>
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >400</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">400</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/rice1.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Рис1</h3>
+                            <p class="catalog-item__description">Описание риса1</p>
+    
+                            <div class="catalog-item__footer">
+
+                                <div class="quantity__input"> 
+                                    <input class="input-field visually-hidden" data-price="450" type="text" name="form[]" value="1">
+                                </div>
+                                    
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >450</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">450</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/rice2.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Рис2</h3>
+                            <p class="catalog-item__description">Описание риса2</p>
+    
+                            <div class="catalog-item__footer">
+
+                                <div class="quantity__input"> 
+                                    <input class="input-field visually-hidden" data-price="450" type="text" name="form[]" value="1">
+                                </div>
+                                    
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >450</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">450</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/rice3.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Рис3</h3>
+                            <p class="catalog-item__description">Описание риса3</p>
+    
+                            <div class="catalog-item__footer">
+
+                                <div class="quantity__input"> 
+                                    <input class="input-field visually-hidden" data-price="450" type="text" name="form[]" value="1">
+                                </div>
+                                    
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >450</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">450</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="catalog-body__item catalog-item" data-category="dish">
+                    <div class="item-product">
+                                
+                        <a href="#" class="catalog-item__img item-product__image ibg">
+                            <div class="item-product__label product-label">
+                                <div class="product-label__text icon-hot"></div>
+                                <div class="product-label__text icon-sale"></div>
+                            </div>
+                            <img src="image/viet-product/dish/rice4.jpg" alt="">
+                        </a>
+                        <div class="item-product__body">
+                            <h3  class="catalog-item__title item-product__title">Рис4</h3>
+                            <p class="catalog-item__description">Описание риса4</p>
+    
+                            <div class="catalog-item__footer">
+
+                                <div class="quantity__input"> 
+                                    <input class="input-field visually-hidden" data-price="450" type="text" name="form[]" value="1">
+                                </div>
+                                    
+                                <div class="catalog-item__bottom">
+                                    <div class="catalog-item__price item-product__price">
+                                        <span class="catalog-item__price-value subtotal hidden" >450</span>
+                                        <span class="catalog-item__currency hidden">&#8381;</span>
+                                        <span class="">450</span>
+                                        <span class="catalog-item__currency">&#8381;</span>
+                                    </div> 
+                                    <button class="item-product__button item-product__button-done" type="button">Добавлено</button>
+                                    <button class="item-product__button item-product__button-add" type="button">В корзину</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> <!-- // catalog-body-->
+    </div> <!-- //catalog__container/-->
+</section>
+    
+
+
+<section id="contacts" class="section-contacts">
+    <div class="container section-contacts__container">
+        <header class="section__header">
+            <h2 class="page-title section-contacts__title">Контакты</h2>
+            <div class="contacts">
+                <div class="contacts__start">
+                    <div class="contacts__map contact-map">
+                        <img src="image/banner/contacts.webp" alt="">
+                    
+                    </div>
+                    
+                </div>
+                <div class="contacts__end">
+                    <!--
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Адрес</h3>
+                        <p class="contacts__text">АдресАдресАдресАдрес</p>
+                    </div>
+                    -->
+                    
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Телефон</h3>
+                        <p class="contacts__text">
+                            <a href="tel:+70000000000" class="contacts__phone">+7 000 000 00 00</a>
+                        </p>
+                    </div>
+                    <div class="contacts__item">
+                        <h3 class="contacts__title">Давайте дружить</h3>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a href="https://www.instagram.com/azia_bo/" class="socials__link" target="_blank">
+                                    <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+
+<a href="#" id="toTop">
+    <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <g>
+                <path d="M489.229,442.468L254.563,37.135c-3.797-6.592-14.677-6.592-18.453,0L1.443,442.468c-1.92,3.307-1.92,7.36-0.021,10.667
+			c1.92,3.307,5.44,5.333,9.259,5.333h469.333c3.819,0,7.339-2.027,9.259-5.333C491.128,449.849,491.128,445.775,489.229,442.468z"/>
+            </g>
+        </g>
+    </svg>
+</a>
+
+   
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo footer-logo">
+                <a href="index.html" class="footer-logo__img-holder">
+                    <img src="image/banner/dragon.png" alt="" width="60" height="60">
+                </a>
+                <div class="footer-logo__title">
+                    
+                    <p class="footer-logo__title-bottom">Азия ВО</p>
+                </div>
+            </div>
+            <div class="footer__nav nav-footer">
+                <ul class="nav-footer__list">
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Отзывы и пожелания</a></li>
+                    <li><a href="#">Акции</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer__info info-footer">
+                <div class="info-footer__wrapper">
+                    <div class="info-footer__schedul">пн-вс: 10.00 - 22.30</div>
+                    <a href="tel:80000000000" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+                <div class="info-footer__whatsapp">
+                    <a href="https://wa.me/+79265729595" class="info-footer__tel">0 000 000 00 00</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__sub sub-footer">
+            <div class="container sub-footer__container">
+                <div class="sub-footer__copy">
+                    
+                    2021 <a href="#" class="copy-link" target="_blank">Tania-nia</a> 
+                </div>
+                <div class="sub-footer__social social-footer">
+                    <a href="https://www.instagram.com/azia_bo/" class="social-footer__item" target="_blank">
+                        <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                    </a>
+                    <a href="#" class="social-footer__item">
+                        <a href="https://wa.me/+79265729595" class="info-footer__tel">0 000 000 00 00</a>
+                    </a>
+                    
+                </div>
+            </div>
+           
+
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__container order-modal" role="dialog" aria-modal="true" data-target="modal">
+        
+            <div class="modal__content order-modal__content">
+                <div class="order-modal__top">
+                    <h2 class="order-modal__title">Оформление заказа</h2>
+                    <span class="order-modal__number">Заказ № 24,02</span>
+                </div>
+                <div class="form">
+                    <form action="#" method="POST" class="order-modal__form order form-send" id="form">
+                        <div class="order-modal__info">
+                            <div class="order-modal__quantity order-modal__info-item">Товаров в заказе:<span> 0 шт</span></div>
+                            <label class="order-modal__summ order-modal__info-item">Общая сумма заказа:
+                                <span> 0 ₽</span>
+                                <input type="text" id="formTotal" name="formTotal" class="order__input visually-hidden" value="1">
+                            </label>
+                            <div class="order-modal__message">
+                                <label for="formMessage" class="order-modal__label">Адрес доставки:</label>
+                                <textarea name="adress" id="formMessage" class="form__input"></textarea>
+                            </div>
+                            <div class="order-modal__products order-modal__info-item">
+                                
+                                <button type="button" class="order-modal__btn">Состав заказа</button>
+                                <ul class="order-modal__list">
+                                    
+                                </ul> 
+                            </div>
+                            <label class="order__label">
+                                <span class="order__text">Ваше имя</span>
+                                <input type="text" id="formName" name="name" class="order__input _req">
+                            </label>
+                            <label class="order__label">
+                                <span class="order__text">Номер телефона</span>
+                                <input type="tel" id="formTel"  data-validate-field="tel" name="tel" class="order__input _req">
+                            </label>
+                            
+                            <button type="submit" class="order__btn">Оформить заказ</button>
+                        </div>
+                       
+                            
+        
+                        </form>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!--   POPUP  MOBILE MENU -->
+    <div class="popup popup-menu">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content popup__content-fluid popup__content-centred">
+                    
+                    <nav class="popup__mobile-menu mobile-menu">
+                        <ul class="mobile-menu__ul">
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link" href="index.html">Меню</a>
+                            </li>
+                            <li class="mobile-menu__li"><a class="mobile-menu__link" href="index.html">Контакты</a></li>
+                            <li class="mobile-menu__li"><a class="mobile-menu__link" href="index.html">Акции</a></li>
+                        </ul> 
+                    </nav>
+                    <div class="mobile-menu__phone">
+                        <a class="phone__item" href="tel:89265729595" class="info-header__tel">0 000 000 00 00</a>
+                    </div>
+                   
+                       
+                    <ul class="socials">
+                        <li class="socials__item">
+                            <a href="https://www.instagram.com/azia_bo/" class="socials__link" target="_blank">
+                                <img src="image/icons/instagram-sketched-logo.svg" width="25" alt="">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   END POPUP  -->
+        <!--   POPUP  THANk`s -->
+        <div class="popup popup-thanks">
+            <div class="popup__wrapper">
+                <div class="popup__inner">
+                    <div class="popup__content popup__content-fluid popup__content-centred">
+                        <button class="btn-close popup__btn-close" type="button"></button>
+                        <h2 class="popup__title">Спaсибо за заказ!</h2>
+                        <p class="popup__subtitle">Начинаем готовить</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   END POPUP  -->
+     <!--   POPUP  error -->
+     <div class="popup popup-error">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content popup__content-fluid popup__content-centred">
+                    <button class="btn-close popup__btn-close" type="button"></button>
+                    <h2 class="popup__title">Произошла ошибка</h2>
+                    <p class="popup__subtitle">Пожалуйста сделайте заказ по телефону <a class="popap__phone" href="tel:+79999999999">+7 999 999 99 99</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   END POPUP  -->    
+
+
+    <script src="js/simplebar.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/products-sl.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/form.js"></script> 
+    
+
+   
+   
+    <script src="js/catalog.js"></script>
+    <script src="js/up-button.js"></script>
+   
+
+</body>
+</html>
